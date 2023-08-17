@@ -1,0 +1,237 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: "Lato";
+}
+span{
+    color:rgb(229, 84, 115);
+}
+/* -- TITLE --> */
+.title{
+    background-color: rgb(252, 238, 241);
+}
+
+.title .box{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.primary-btn{
+    background-color: rgb(229, 84, 115);
+    color: white;
+    border-radius: 5px;
+    border-color:rgb(229, 84, 115) ;
+    padding: 10px 15px;
+    
+}
+
+.pngwing{
+    width: 315px;
+    height: 400px;
+    padding-left: 150px;
+}
+.text h1{
+    width:300px;
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+
+    
+}
+.text p{
+    width: 500px;
+    color: rgb(124, 119, 120);
+}
+.text{
+    padding:40px;
+}
+
+/* TITLE */
+
+/* FEATURED */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.featured-flowers{
+    margin-top: 60px;
+}
+.fig{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    
+    
+   
+    
+}
+.flower-fig{
+    
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 25px;
+    padding-bottom: 0;
+    width: 25%;
+}
+.one{
+    background-color: rgb(242, 222, 231);
+}
+.two{
+    background-color:  rgb(217, 239, 241);
+}
+.three{background-color: rgb(227, 235, 219);}
+
+.caption{
+    display: flex;
+    padding-left:50px;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.featured-flowers h1{
+    text-align: center;
+}
+.featured-flowers p{
+    width: 520px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+
+/* FEATURED */
+
+/* DELIVERY */
+
+.deliver{
+    background-color: rgb(244, 244, 244);
+    justify-content: space-between;
+   
+   padding: 30px 40px;
+    border-radius: 5px;
+    margin:45px 0;
+
+}
+
+.deliver-icon{
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+
+    .deliver-caption{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    /* DELIVERY */
+
+    /* HOT DEAL */
+
+.hot-deal{
+    background-color: rgb(252, 238, 241);
+    width: 100%;
+}
+.box{
+    display: flex;
+}
+.deal-image {
+    padding-left: 60px;
+    width: 50%;
+}
+.deal-image img{
+   
+    width: 150px;
+}
+.deal-text{
+ align-items: center;
+ padding-left: 85px;
+ width: 50%;
+ margin: 40px 0;
+ 
+}
+.deal-text p{
+    width:460px;
+    text-align: center;
+    color: rgb(125, 122, 123);
+}
+.deal-text h3{
+   margin-left:100px ;
+}
+.deal-text .primary-btn
+{
+  margin-left: 180px;
+}
+/* HOT DEAL */
+
+/* INSTA */
+
+
+.insta-text{
+text-align: center;
+margin: 50px;
+
+}
+.insta-text p{
+    width: 400px;
+    text-align: center; 
+      margin: 0 auto;
+      color: rgb(125, 122, 123);
+}
+
+.insta-pic{
+    display: flex;
+    gap:27px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+   
+   
+    
+}
+.insta-inside-pic{ 
+    width:23%;
+    height:250px ;
+
+}
+
+/* INSTA */
+
+/* BANNER */
+
+
+
+.banner{
+    
+    background-image: url(../Flower-Asset/Rectangle\ 9.png);
+    margin-top: 50px;
+    /* height: 150px; */
+    /* width: 400px; */
+    /* margin-left: 200px; */
+    padding: 50px 100px;
+    margin-bottom: 50px;
+    background-size: cover;
+    text-align: center;
+   
+}
+ /* BANNER */ 
+ 
+ .foot{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 20px 100px;
+ }
+ .foot h5{
+    color: rgb(231, 231, 231);
+    width: 436px;
+    margin: 0 auto;
+    font-weight: 400px;
+ }
+ .foot h6{
+    color: rgb(125, 122, 123) ;
+ }
